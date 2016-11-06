@@ -5,4 +5,5 @@ set -e
 if [ -d "_book" ]; then rm -Rf _book; fi
 
 npm i -g gitbook-cli
+gitbook install
 gitbook build
